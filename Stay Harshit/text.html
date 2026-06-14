@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #eef4bf;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1000px;
+            gap: 20px;
+        }
+
+        .d1, .d2 {
+            flex: 1;
+        }
+
+        .d1 img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .d2 {
+            text-align: justify;
+            padding: 10px;
+            background: rgb(183, 239, 239);
+            border-radius: 10px;
+        }
+
+        .description {
+            margin-top: 20px;
+            padding: 10px;
+            width: 80%;
+            max-width: 1000px;
+            background: rgb(183, 239, 239);
+            border-radius: 10px;
+        }
+
+        .contact {
+            margin-top: 20px;
+            padding: 10px;
+            width: 80%;
+            max-width: 1000px;
+            background: rgb(183, 239, 239);
+            text-align: center;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="d1">
+            <h1>Portfolio</h1>
+            <img src="image.jpg" alt="Profile Image">
+        </div>
+        <div class="d2">
+            <p>
+                Hi there! I'm a dedicated web developer with a passion for crafting stunning websites. I love exploring new technologies and designing intuitive, user-friendly experiences. Welcome to my portfolio!
+            </p>
+        </div>
+    </div>
+
+    <div class="description">
+        <p>
+            I'm skilled in HTML, CSS, and JavaScript, and I'm currently diving deeper into backend development. Take a look at my work, and don't hesitate to reach out if you have any questions!
+        </p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: Harshit07@email.com</p>
+        <p>Phone: +4444333221</p>
+    </div>
+</body>
+</html>

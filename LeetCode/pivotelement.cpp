@@ -19,7 +19,7 @@ int FindPivot(int arr[],int size){
     return s;
 }
 int main(){
-    int arr[6]={7,8,9,10,2};
+    int arr[6]={2,4,1,7,5,0};
     int PivotNum=FindPivot(arr,6);
     cout<<"The Pivot Element is :"<<PivotNum;
 }

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #eef4bf;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    gap: 20px;
+}
+
+.d1, .d2 {
+    flex: 1; /* Makes both sections take equal space */
+}
+
+.d1 img {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px;
+}
+
+.d2 {
+    text-align: justify;
+    padding: 10px;
+    background: rgb(183, 239, 239);
+    border-radius: 10px;
+}
+
+/* Description section */
+.description {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 1000px;
+    background: rgb(183, 239, 239);
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 1000px;
+    background: rgb(183, 239, 239);
+    text-align: center;
+    border-radius: 10px;
+}

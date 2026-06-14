@@ -61,7 +61,7 @@ int MaxCowDist(int arr[],int size,int AggressiveCows){
 int main(){
 
     int size=6;
-    int AggressiveCows=4;
-    int arr[size]={0, 3, 4, 7, 10, 9};
+    int AggressiveCows=5;
+    int arr[size]={6, 4 ,3 ,16, 20, 7, 18, 10};
     cout<<"The Maximum distance between the aggressive cows are :"<<MaxCowDist(arr,size,AggressiveCows);
 }
